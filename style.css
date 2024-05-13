@@ -13,7 +13,7 @@ body {
 .logo {
   font-size: 24px;
   text-decoration: none;
-  color: black;
+  color: #122D3F;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,12 +39,13 @@ body {
 
 .menu a {
   text-decoration: none;
-  color: #586358;
+  color: #122D3F;
   transition: color 0.3s;
+  font-weight: bolder;
 }
 
 .menu a:hover {
-  color: #F0C419;
+  color: #4599d1;
 }
 
 .hamburger-menu {
@@ -91,9 +92,12 @@ body {
   color: black;
   margin-bottom: 20px;
 }
+.texto p{
+    font-weight: bold;
+}
 
 .morado {
-  color: #800080;
+  color: #FD368B;
 }
 
 .texto p {
@@ -105,7 +109,7 @@ body {
 .boton-contratar {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #367C98;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -115,7 +119,7 @@ body {
 }
 
 .boton-contratar:hover {
-  background-color: #0056b3;
+  background-color: #122D3F;
 }
 
 
@@ -206,6 +210,50 @@ body {
 }
 
 
+/*Estilos para el contador*/
+
+.con {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+}
+
+.contenedor {
+    width: 80%;
+    height: 7rem;
+    background-color: #08141d;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.contenedor div {
+    width: 25%;
+    height: 5rem;
+    border-right: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    text-align: center;
+}
+.contenedor div p{
+    font-weight: bolder;
+    margin: 0;
+}
+.contenedor div h3{
+    font-weight: bolder;
+    margin: 0;
+    font-size: 2.5rem;
+}
+.contenedor div:nth-child(4) {
+    width: 25%;
+    border: none;
+}
+
+
+
 
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 768px) {
@@ -235,7 +283,8 @@ body {
     left: 0;
     padding-top: 3rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 3000;   
+    z-index: 3000;
+    position: fixed;   
   }
 
   .menu.active li {
@@ -318,6 +367,35 @@ body {
     object-fit: cover;
     transform: rotate(-225deg);
   }
+  .con {
+    margin-top: 2rem;
+  }
+  .contenedor {
+    width: 80%;
+    height: auto;
+    background-color: #08141d;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.contenedor div {
+    width: 80%;
+    height: 7rem;
+    border-bottom: 1px solid gray;
+    border-right: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.contenedor div:nth-child(4) {
+    width: 25%;
+    border: none;
+}
 }
 
 
