@@ -138,7 +138,7 @@ body {
     .fondo-celeste {
     max-width: 20rem;
     max-height: 12rem;
-    background-color: rgb(173, 218, 255);
+    background-color: #122D3F;
     margin-top: 15rem;
     transform: rotate(-135deg);
     border-radius: 1rem;
