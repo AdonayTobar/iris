@@ -70,8 +70,9 @@ body {
   background-color: white;
   padding: 0;
   display: flex;
+  justify-content: space-between;
   width: 100%;
-  margin: -7rem auto;
+  margin: 0rem auto;
 }
 
 .texto {
@@ -123,34 +124,26 @@ body {
   .galeria{
         width: 50%;
         height: auto;
-        margin-top: -2rem;
         z-index: 1;
-        padding-left: 5rem;
-        margin-left: 3rem;
     }
+      .imagenes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
     .fondo-celeste {
-    width: 25rem;
-    height: 15rem;
+    max-width: 20rem;
+    max-height: 12rem;
     background-color: rgb(173, 218, 255);
     margin-top: 15rem;
     transform: rotate(-135deg);
-    border-radius: 10px;
-    position: relative;
-    left: -10rem;
-    top: 2rem;
-  }
-  .imagenes {
-    width: 100%;
+    border-radius: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 1rem;
     transform: rotate(-135deg);
-    margin: 0 auto;
-    position: relative;
-    top: -22rem; /* Ajusta según sea necesario */
-    left: 00rem;
   }
+
   .imagen {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -263,41 +256,32 @@ body {
     padding-left: 2rem;
     margin: 0;
     width: 95%;
-    margin-top: -12rem;
+    margin-top: 5rem;
   }
   .texto h1 {
     font-size: 1.6rem;
   }
 
      .galeria{
-        width: 80%;
+        width: 95%;
         height: auto;
         margin: 0 auto;
         z-index: 1;
         
     }
     .fondo-celeste {
-    width: 15rem;
-    height: 7rem;
+    max-width: 15rem;
+    max-height: 7rem;
     background-color: rgb(173, 218, 255);
-    margin-top: 15rem;
+    margin-top: 5rem;
     transform: rotate(-135deg);
-    border-radius: 10px;
-    position: relative;
-    left: -1rem;
-    top: -5rem;
-  }
-  .imagenes {
+    border-radius: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 10px;
+    gap: 1rem;
     transform: rotate(-135deg);
-    margin: 0 auto;
-    position: relative;
-    top: -15rem; /* Ajusta según sea necesario */
-    left: -2rem;
   }
+
   .imagen {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
