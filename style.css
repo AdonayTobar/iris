@@ -140,7 +140,7 @@ body {
     border-radius: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
+    gap: 0.5rem;
     transform: rotate(-135deg);
   }
 
@@ -251,15 +251,21 @@ body {
   .inicio {
     display: flex;
     flex-direction: column-reverse;
+    overflow: hidden;
   }
   .texto {
-    padding-left: 2rem;
-    margin: 0;
     width: 95%;
+    padding: 0;
+    margin: 0;
     margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    padding-left: 1rem;
   }
   .texto h1 {
     font-size: 1.6rem;
+
   }
 
      .galeria{
@@ -273,12 +279,12 @@ body {
     max-width: 15rem;
     max-height: 7rem;
     background-color: rgb(173, 218, 255);
-    margin-top: 5rem;
+    margin-top: 8rem;
     transform: rotate(-135deg);
     border-radius: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
+    gap: 0.1rem;
     transform: rotate(-135deg);
   }
 
