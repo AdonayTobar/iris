@@ -515,10 +515,14 @@ body {
 .prim {
   width: 95%;
 }
-.link {
+.ilus .link {
   margin: 0 auto;
   padding-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  width: auto;
 }
+
 .about p{
   font-weight: bolder;
   font-size: 1rem;
