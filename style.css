@@ -342,6 +342,139 @@ body {
 }
 
 
+
+/*Esta es la introduccion de los servicios*/
+.intro-ser {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.ser {
+  width: 45%;
+   display: flex;
+  justify-content: end;
+  text-align: center;
+}
+.ser p {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  width: 100%;
+}
+.des {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  background-color: #367c9896;
+  border-radius: 2rem;
+  height: auto;
+}
+.des p {
+  font-size: 1.9rem;
+  padding-left: 3rem;
+}
+
+
+
+
+
+/*Esta es la verdadera seccion de servicios*/
+
+.lista-ser {
+  padding: 1rem 0;
+  display: flex;
+  width:100%;
+  overflow-x: auto;
+}
+
+.servicio {
+  width: 15rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.descrip {
+  width: 100%;
+  border-top: 1px solid gray;
+  display: flex;
+  align-items: center;
+}
+.descrip div {
+  width: 1.3rem;
+  height: 1.3rem;
+  background-color: #FD368B;
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+.descrip p {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.img-ser1 {
+  width: 15rem;
+  height: 20rem;
+  background-image: url('https://images.pexels.com/photos/4108779/pexels-photo-4108779.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-position: center; /* Centra la imagen horizontal y verticalmente */
+  background-size: cover;
+  border-radius: 1rem;
+}
+.img-ser7 {
+  width: 15rem;
+  height: 20rem;
+  background-image: url('https://images.pexels.com/photos/9462307/pexels-photo-9462307.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-position: center; /* Centra la imagen horizontal y verticalmente */
+  background-size: cover;
+  border-radius: 1rem;
+}
+.img-ser2 {
+  width: 15rem;
+  height: 20rem;
+  background-image: url('https://images.pexels.com/photos/9462096/pexels-photo-9462096.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-position: center; /* Centra la imagen horizontal y verticalmente */
+  background-size: cover;
+  border-radius: 1rem;
+}
+.img-ser3 {
+  width: 15rem;
+  height: 20rem;
+  background-image: url('https://images.pexels.com/photos/4440570/pexels-photo-4440570.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-position: center; /* Centra la imagen horizontal y verticalmente */
+  background-size: cover;
+  border-radius: 1rem;
+}
+.img-ser4 {
+  width: 15rem;
+  height: 20rem;
+  background-image: url('https://images.pexels.com/photos/9462643/pexels-photo-9462643.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-position: center; /* Centra la imagen horizontal y verticalmente */
+  background-size: cover;
+  border-radius: 1rem;
+}
+.img-ser5 {
+  width: 15rem;
+  height: 20rem;
+  background-image: url('https://images.pexels.com/photos/1454805/pexels-photo-1454805.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-position: center; /* Centra la imagen horizontal y verticalmente */
+  background-size: cover;
+  border-radius: 1rem;
+}
+.img-ser6 {
+  width: 15rem;
+  height: 20rem;
+  background-image: url('https://images.pexels.com/photos/3315286/pexels-photo-3315286.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-position: center; /* Centra la imagen horizontal y verticalmente */
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+
 /*Regulación de h1*/
 @media (min-width: 800px) and (max-width: 1000px){
   .texto h1{
@@ -546,6 +679,42 @@ body {
   padding-top: 1rem;
 }
 
+.intro-ser {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: -2rem;
+}
+.ser {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  text-align: center;
+}
+.ser p {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+.des {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  background-color: #367c9896;
+  border-radius: 2rem;
+  height: auto;
+}
+.des p {
+  font-size: 1.9rem;
+  padding-left: 3rem;
+}
+.des p {
+  font-size: 1.3rem;
+  padding: 0rem 1rem;
+}
 }
 
 
