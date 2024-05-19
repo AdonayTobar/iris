@@ -4,10 +4,14 @@ body {
 }
 
 .container {
+  width: 93%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 0 20px;
+  position: fixed;
+  z-index: 5000;
+  background-color: white;
 }
 
 .logo {
@@ -91,6 +95,7 @@ body {
   font-size: 2.5rem;
   color: black;
   margin-bottom: 20px;
+  margin-top: 5rem;
 }
 .texto p{
     font-weight: bold;
@@ -101,9 +106,11 @@ body {
 }
 
 .texto p {
-  font-size: 18px;
+  width: 90%;
+  font-size: 15px;
   color: black;
   margin-bottom: 30px;
+  margin-top: -1rem;
 }
 
 .boton-contratar {
@@ -138,7 +145,7 @@ body {
     .fondo-celeste {
     max-width: 20rem;
     max-height: 12rem;
-    background-color: #122D3F;
+    background-color: #FD368B;
     margin-top: 15rem;
     transform: rotate(-135deg);
     border-radius: 1rem;
@@ -221,8 +228,8 @@ body {
 
 .contenedor {
     width: 80%;
-    height: 7rem;
-    background-color: #08141d;
+    height: 9rem;
+    background-color: #07121a;
     border-radius: 1.5rem;
     display: flex;
     justify-content: center;
@@ -231,33 +238,129 @@ body {
 }
 .contenedor div {
     width: 25%;
-    height: 5rem;
+    height: 7rem;
     border-right: 1px solid gray;
     display: flex;
     flex-direction: column;
-    color: gray;
+    justify-content: space-between;
+    color: rgb(245, 245, 245);
     text-align: center;
 }
 .contenedor div p{
     font-weight: bolder;
     margin: 0;
+    font-size: 0.9rem;
 }
-.contenedor div h3{
-    font-weight: bolder;
-    margin: 0;
-    font-size: 2.5rem;
-}
+
 .contenedor div:nth-child(4) {
     width: 25%;
     border: none;
 }
+.contenedor img {
+  width: 5rem;
+  margin: 0 auto;
+}
 
+
+
+
+
+
+
+/*Seccion de sobre nosotros*/
+.post {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.one {
+  width: 90%;
+  margin: 0 auto;
+}
+.ti {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5rem;
+}
+.ti h3{
+  font-size: 1.5rem;
+  margin: 0;
+}
+.ti p {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+.ilus {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  justify-items: center;
+}
+.prim {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(241, 241, 241);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.prim div:nth-child(1) { 
+  width: 20%;
+}
+.ilus .link {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link a {
+  color: #4599d1;
+  text-decoration: none;
+  justify-content: center;
+  padding-left: 0.5rem;
+}
+.about p{
+  font-weight: bolder;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+.casas {
+  display: flex;
+  justify-content: center;
+}
+.casas img{
+  width: 7rem;
+}
+.arrow {
+  width: 2rem;
+}
+
+
+/*Regulación de h1*/
+@media (min-width: 800px) and (max-width: 1000px){
+  .texto h1{
+    width: 350px;
+  }
+  .prim {
+    padding: 0.5rem;
+    width: 100%;
+  }
+}
 
 
 
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 768px) {
 
+  .container {
+    padding-top: 0.5rem;
+  }
   .menu {
     display: none;
   }
@@ -279,7 +382,7 @@ body {
     background-color: white;
     width: 100%;
     height: 100vh;
-    top: 90px;
+    top: 57px;
     left: 0;
     padding-top: 3rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -314,7 +417,7 @@ body {
   }
   .texto h1 {
     font-size: 1.6rem;
-
+    margin-top: 0;
   }
 
      .galeria{
@@ -371,7 +474,7 @@ body {
     margin-top: 2rem;
   }
   .contenedor {
-    width: 80%;
+    width: 15rem;
     height: auto;
     background-color: #08141d;
     border-radius: 1.5rem;
@@ -383,7 +486,7 @@ body {
 }
 .contenedor div {
     width: 80%;
-    height: 7rem;
+    height: 10rem;
     border-bottom: 1px solid gray;
     border-right: none;
     display: flex;
@@ -393,9 +496,52 @@ body {
     align-items: center;
 }
 .contenedor div:nth-child(4) {
-    width: 25%;
+    width: 80%;
     border: none;
 }
+.contenedor img {
+  width: 6rem;
+  margin: 0 auto;
+}
+
+.ilus {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.prim {
+  width: 95%;
+}
+.link {
+  margin: 0 auto;
+  padding-top: 0.5rem;
+}
+.about p{
+  font-weight: bolder;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+.casas {
+  display: flex;
+  justify-content: center;
+}
+.casas img{
+  width: 5rem;
+}
+.ti {
+  margin-top: 1rem;
+}
+.ti p {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  margin: 0;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
 }
 
 
