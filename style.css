@@ -474,6 +474,71 @@ body {
   border-radius: 1rem;
 }
 
+/*La parte de introduccion a los testimonios*/
+.intro-testi {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -3rem;
+  margin-top: 2rem;
+}
+
+
+
+/* Testimonios*/
+.lista-testi {
+  padding: 1rem 0;
+  display: flex;
+  width:100%;
+  overflow-x: auto;
+  margin-top: 2rem;
+  scrollbar-width: thin; /* Estilo de la barra de desplazamiento en Firefox */
+    scrollbar-color: #888 #eee;
+    margin-bottom: 5rem;
+}
+
+.testimonio {
+  width: 15rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 0rem;
+  margin-left: 2rem;
+}
+
+.descrip-tes {
+  width: 15rem;
+  border-radius: 1.5rem 1.5rem 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(236, 236, 236);
+}
+
+.descrip-tes p {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+  padding: 0.5rem;
+}
+.texto-tes {
+  font-size: 1.2rem;
+  background-color: rgb(236, 236, 236);
+  padding: 0 0.5rem;
+  margin-bottom: 0rem;
+}
+.nombre-cliente {
+  text-align: center;
+  background-color: rgb(236, 236, 236);
+  border-radius:0 0 1.5rem 1.5rem ;
+  font-weight: bolder;
+}
+
 
 /*Regulación de h1*/
 @media (min-width: 800px) and (max-width: 1000px){
@@ -695,7 +760,7 @@ body {
   text-align: center;
 }
 .ser p {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: bolder;
   margin-bottom: 1rem;
 }
