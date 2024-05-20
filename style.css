@@ -488,56 +488,74 @@ body {
 
 
 /* Testimonios*/
-.lista-testi {
-  padding: 1rem 0;
+
+
+.car {
   display: flex;
-  width:100%;
-  overflow-x: auto;
-  margin-top: 2rem;
-  scrollbar-width: thin; /* Estilo de la barra de desplazamiento en Firefox */
-    scrollbar-color: #888 #eee;
-    margin-bottom: 5rem;
+  justify-content: center;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    overflow: hidden;
+    cursor: grab;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel:active {
+    cursor: grabbing;
+}
+
+.carousel-track-container {
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    justify-content: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    /*opacity: 0.5;
+    filter: blur(2px);
+    transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;*/
+}
+
+.carousel-slide.current-slide {
+    opacity: 1;
+    filter: none;
 }
 
 .testimonio {
-  width: 15rem;
-  height: 25rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-right: 0rem;
-  margin-left: 2rem;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .descrip-tes {
-  width: 15rem;
-  border-radius: 1.5rem 1.5rem 0 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background-color: rgb(236, 236, 236);
+    font-weight: bold;
 }
 
-.descrip-tes p {
-  font-size: 1.2rem;
-  font-weight: bolder;
-  padding: 0;
-  margin: 0;
-  padding: 0.5rem;
-}
 .texto-tes {
-  font-size: 1.2rem;
-  background-color: rgb(236, 236, 236);
-  padding: 0 0.5rem;
-  margin-bottom: 0rem;
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
+
 .nombre-cliente {
-  text-align: center;
-  background-color: rgb(236, 236, 236);
-  border-radius:0 0 1.5rem 1.5rem ;
-  font-weight: bolder;
+    text-align: right;
+    font-style: italic;
 }
+
 
 
 /*Regulación de h1*/
@@ -779,6 +797,9 @@ body {
 .des p {
   font-size: 1.3rem;
   padding: 0rem 1rem;
+}
+.car {
+  margin-top: 3rem;
 }
 }
 
