@@ -95,7 +95,7 @@ body {
   font-size: 2.5rem;
   color: black;
   margin-bottom: 20px;
-  margin-top: 5rem;
+  margin-top: 9rem;
 }
 .texto p{
     font-weight: bold;
@@ -529,7 +529,63 @@ body {
     font-size: 1em;
     color: #367C98;
 }
+.boton {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding: 4rem;
+}
 
+
+
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+footer section {
+  width: 95%;
+  background-color: #122D3F;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+footer img {
+  width: 5rem;
+  height: 5rem;
+}
+.arriba {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-empresa {
+display: flex;
+
+}
+.logo-empresa p {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.redes {
+  margin-right: 2rem;
+}
+
+.redes img{
+  width: 3rem;
+  margin-left: 1rem;
+}
+.derechos {
+  border-top: 1px solid #cfcfcf;
+  text-align: center;
+}
+.derechos p{
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1rem;
+}
 
 
 
@@ -776,6 +832,48 @@ body {
 }
 .car {
   margin-top: 3rem;
+}
+.arriba {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.logo-empresa {
+display: flex;
+
+}
+.logo-empresa p {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+.redes {
+  margin-right: 2rem;
+}
+
+.redes img{
+  width: 1.6rem;
+  margin-left: 1rem;
+}
+.derechos {
+  border-top: 1px solid #cfcfcf;
+  text-align: center;
+}
+.derechos p{
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+footer section {
+  width: 90%;
+  background-color: #122D3F;
+  border-radius: 1.5rem;
+  padding: 1rem;
 }
 }
 

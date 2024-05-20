@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    setInterval(moveCarousel, 3000);
+    setInterval(moveCarousel, 5000);
 
     const touchStart = (index) => {
         return function(event) {
