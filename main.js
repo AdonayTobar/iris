@@ -2,6 +2,12 @@ document.querySelector('.hamburger-menu').addEventListener('click', () => {
   document.querySelector('.menu').classList.toggle('active');
 });
 
+const contactMenu = document.querySelector('.contact-menu');
+const cuerpoP = document.querySelector(".content");
+const googleForm = document.getElementById("contactId");
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const carousel = document.querySelector('.carousel');
     const testimonials = document.querySelectorAll('.testimonial');
