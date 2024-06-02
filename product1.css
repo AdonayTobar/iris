@@ -268,11 +268,30 @@ body {
   margin-bottom: 15px; /* Espacio entre elementos */
   padding: 10px; /* Espacio interno de cada elemento */
   background-color: #367c9896; /* Color de fondo */
-  border-radius: 10px; /* Bordes redondeados */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */ 
+  border-radius: 2rem; /* Bordes redondeados */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra sutil */ 
   width: 100%;
   max-width: 40rem;
   height: auto;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  font-size: 1.5rem;
+}
+
+.intro-plus {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  padding: 0 1rem;
+}
+
+.vender {
+  font-size: 1.9rem;
+  font-weight: bolder;
+  padding: 0 1rem;
+}
+.fle {
+  margin-bottom: -2rem;
+  color: #FD368B;
 }
 
 
@@ -299,6 +318,12 @@ body {
     align-items: center;
     margin-top: -9.5em;
 }
+.list .parte {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
 }
 
 
@@ -334,7 +359,7 @@ body {
     font-weight: bolder;
     margin-top: 3rem;
 }
-.parte {
+.incluye1 .list .parte {
     width: 100%;
     height: auto;
     display: flex;
