@@ -388,6 +388,7 @@ body {
 .lista-ser {
   padding: 1rem 0;
   display: flex;
+  justify-content: center;
   width:100%;
   overflow-x: auto;
 }
@@ -662,8 +663,25 @@ display: flex;
     padding: 0.5rem;
     width: 100%;
   }
+
 }
 
+@media screen and (max-width: 500px){
+    .servicio:nth-child(1){
+  padding-left: 14rem;
+}
+.servicio:nth-child(2){
+  margin-left: 0rem;
+}
+}
+@media screen and (max-width: 550px){
+    .servicio:nth-child(1){
+  margin-left: 4rem;
+}
+.servicio:nth-child(2){
+  margin-left: 0rem;
+}
+}
 
 
 /* Estilos para dispositivos móviles */
@@ -857,6 +875,13 @@ display: flex;
   padding-bottom: 1rem;
   padding-top: 1rem;
 }
+.lista-ser {
+  padding: 1rem 0;
+  display: flex;
+  width:100%;
+  overflow-x: auto;
+}
+
 
 .intro-ser {
   width: 95%;

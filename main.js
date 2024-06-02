@@ -107,5 +107,10 @@ document.addEventListener('DOMContentLoaded', () => {
 const imgSer1 = document.querySelector('.lim1');
 
 imgSer1.addEventListener('click', function() {
+  window.location.href = './product2.html'; // Replace with the desired URL
+});
+const imgSer2 = document.querySelector('.lim2');
+
+imgSer2.addEventListener('click', function() {
   window.location.href = './produc1.html'; // Replace with the desired URL
 });
