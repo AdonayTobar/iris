@@ -20,3 +20,15 @@ const cuerpoP = document.querySelector(".content");
 const googleForm = document.getElementById("contactId");
 
 
+const partes = document.querySelectorAll('.parte');
+
+partes.forEach(parte => {
+  parte.addEventListener('click', () => {
+    if (parte.classList.contains('activo')) {
+      parte.classList.remove('activo');
+    } else {
+      partes.forEach(parte => parte.classList.remove('activo'));
+      parte.classList.add('activo');
+    }
+  });
+});

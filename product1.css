@@ -294,6 +294,37 @@ body {
   color: #FD368B;
 }
 
+.contenedor-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  max-width: 60rem; /* Ajusta el ancho según tus necesidades */
+}
+
+.parte {
+  margin-bottom: 20px; /* Espacio entre divs */
+  width: 100%;
+}
+
+.negritas {
+  font-weight: bold;
+}
+
+.texto-completo {
+  display: none; /* Oculta el texto completo inicialmente */
+  height: 0; /* Altura inicial 0 */
+  overflow: hidden; /* Oculta el contenido que exceda la altura */
+  transition: height 0.5s ease-in-out; /* Animación de altura */
+}
+
+.parte.activo .texto-completo {
+  display: block; /* Muestra el texto completo al activar el div */
+  height: auto; /* Altura automática para mostrar todo el contenido */
+}
+ .spa {
+  cursor: pointer;
+ }
 
 
 
@@ -321,8 +352,8 @@ body {
 .list .parte {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    border-radius: 1rem;
 }
-
 
 }
 
