@@ -1,15 +1,12 @@
-const servicios = document.querySelectorAll('.servicio');
+const ser1 = document.querySelector('.lim-re');
 
-servicios.forEach(servicio => {
-  servicio.addEventListener('click', () => {
-    const enlace = servicio.querySelector('a'); // Obtiene el enlace dentro del servicio
-    if (enlace) {
-      window.location.href = enlace.href; // Redirige a la página del enlace
-    } else {
-      // En caso de que no haya un enlace, puedes agregar código personalizado
-      console.log('Este servicio aún no tiene una página asignada.');
-    }
-  });
+ser1.addEventListener('click', function() {
+  window.location.href = './product2.html'; // Replace with the desired URL
+});
+const ser2 = document.querySelector('.lim-pro');
+
+ser2.addEventListener('click', function() {
+  window.location.href = './produc1.html'; // Replace with the desired URL
 });
 
 document.querySelector('.hamburger-menu').addEventListener('click', () => {
